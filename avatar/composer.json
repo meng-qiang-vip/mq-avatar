@@ -1,0 +1,25 @@
+{
+    "name": "mq/avatar",
+    "description": "第一个扩展包",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mq\\Avatar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mq",
+            "email": "502263220@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Mq\\Avatar\\AvatarProvider"
+        ]
+      }
+    }
+}
